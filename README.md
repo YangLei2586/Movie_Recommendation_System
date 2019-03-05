@@ -15,3 +15,7 @@ Content based system predict what you like based on what you’ve liked in the p
 
 However, some times these two method will be combined for the consideration of better production results. For example Netflix combine both approaches to be even more accurate. In our scripts we will combine two of this approaches to produce a hybrid model.
 
+(3) Libaries 
+
+(a) numpy for scientic computing
+(b) lightfm for datasets and modeling 
