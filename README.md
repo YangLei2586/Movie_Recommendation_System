@@ -19,3 +19,9 @@ However, some times these two method will be combined for the consideration of b
 
 (a) numpy for scientic computing
 (b) lightfm for datasets and modeling 
+
+(4) Dataset
+
+We will use the defealt dataset coming from the libary of lightfm called movielens, which is a big CSV file that contains 100K movies ratings from 1K users on 1700 movies. Each user has rated at least 20 moives on a scale of 1 to 5.
+
+The fetch movie lens method takes in an optional parameter called min rating, which stands for the minimum rating we want to include in our data, will set to 4.0 meaning we're only clollecting the movies with a rating of 4 or higher. This method will create an interaction matrix from our CSV file and store in our data varible as a dictionary.
